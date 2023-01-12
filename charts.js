@@ -84,7 +84,7 @@ function buildCharts(sample) {
     var sortedOtuIds = otu_ids.sort((a,b) => b - a);
     var topTenOtuIds = sortedOtuIds.slice(0,10);
     var yticks = topTenOtuIds;
-
+    console.log(yticks);
     // Deliverable 1: 8. Create the trace for the bar chart.
     var trace = { 
       x: sample_values,
