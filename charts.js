@@ -89,7 +89,7 @@ function buildCharts(sample) {
     var trace = { 
       x: sample_values,
       y: yticks,
-      type: "bar"
+      type: "bar",
       orientation: "h"
     };
    var barData = [trace];
