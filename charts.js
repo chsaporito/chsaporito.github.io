@@ -84,6 +84,7 @@ function buildCharts(sample) {
     // so the otu_ids with the most bacteria are last. 
    
     var topTenOtuIds = otu_ids.slice(0,10);
+    console.log(topTenOtuIds);
      var sortedOtuIds = topTenOtuIds.sort((a,b) => b - a);
     var yticks = sortedOtuIds;
     
