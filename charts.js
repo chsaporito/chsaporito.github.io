@@ -73,9 +73,9 @@ function buildCharts(sample) {
     // Deliverable 3: 2. Create a variable that holds the first sample in the metadata array.
 
     // Deliverable 1: 6. Create variables that hold the otu_ids, otu_labels, and sample_values.
-    var otu_ids = samples.map(samp => samp.otu_ids);
-    var otu_labels = samples.map(samp => samp.otu_labels);
-     var sample_values = samples.map(samp => samp.sample_values);
+    var otu_ids = result.map(samp => samp.otu_ids);
+    var otu_labels = result.map(samp => samp.otu_labels);
+     var sample_values = result.map(samp => samp.sample_values);
     // Deliverable 3: 3. Create a variable that holds the washing frequency.
 
 
